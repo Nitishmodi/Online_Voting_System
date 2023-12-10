@@ -1,0 +1,128 @@
+/* Add these styles to your style1.css file */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #700808;
+    color: #571717;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+h1 {
+    color: #4285f4;
+    text-align: center;
+}
+
+p {
+    color: #777;
+    text-align: center;
+}
+
+.k {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.k h1{
+    font-size: 30px;
+}
+.k p{
+    font-size: 20px;
+    color: #4285f4;
+}
+
+form {
+    width: 100%;
+    margin: 20px auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, background-color 0.3s;
+    align-items: center;
+}
+
+form:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #4285f4;
+    margin-bottom: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    width: 100%;
+
+    transition: justify-content 0.3s;
+}
+
+.position-section {
+    width: 45%;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, background-color 0.3s;
+}
+
+.candidate-box {
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #eaeaea;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ccc;
+    transition: box-shadow 0.3s, background-color 0.3s, border-color 0.3s;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.candidate-box:hover {
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    background-color: #d0d0d0;
+    border-color: #999;
+}
+
+
+
+.candidate-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    max-width: 150px;
+
+}
+
+.candidate-info {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.candidate-info p {
+    margin-bottom: 10px;
+}
+
+.vote-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.vote-button:hover {
+    background-color: #45a049;
+}
